@@ -6,13 +6,13 @@
     var Module = Module !== undefined ? Module : {};
     Module['onRuntimeInitialized'] = () =>
     {
-      console.log(Module.my_pow(4.0, -1.0));
+      document.getElementById('res').innerHTML = Module.call_wasm_pow(4.0, -1.0);
     }
   </script>
-  <script type="text/javascript" src="output/printf.js"></script>
+  <script type="text/javascript" src="example.js"></script>
 </head>
 <body>
-Do stuff
+Do stuff <span id='res'></span>
 
 </body>
 </html>

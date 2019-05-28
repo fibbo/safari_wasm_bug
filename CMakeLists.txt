@@ -6,7 +6,7 @@ if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Release)
 endif()
 
-set(O_FLAG "-O2")
+set(O_FLAG "-O2") # O1 also shows the same behaviour
 
 set(CMAKE_CXX_FLAGS_RELEASE "${O_FLAG} -std=c++11")
 

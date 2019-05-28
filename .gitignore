@@ -1,3 +1,5 @@
 output/
 ninja/
 web.config
+example.js
+example.wasm
