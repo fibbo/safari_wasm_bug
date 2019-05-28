@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <script>
+    var Module = Module !== undefined ? Module : {};
+    Module['onRuntimeInitialized'] = () =>
+    {
+      console.log(Module.my_pow(4.0, -1.0));
+    }
+  </script>
+  <script type="text/javascript" src="output/printf.js"></script>
+</head>
+<body>
+Do stuff
+
+</body>
+</html>
